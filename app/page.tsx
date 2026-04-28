@@ -35,6 +35,9 @@ export default function Home() {
             <a href="#games" className="transition hover:text-white">
               Our Games
             </a>
+            <a href="#doraemon" className="transition hover:text-white">
+              Doraemon
+            </a>
             <a href="#careers" className="transition hover:text-white">
               Careers
             </a>
@@ -102,6 +105,42 @@ export default function Home() {
               <p className="px-4 py-3 text-sm font-medium text-white/90">{game.name}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section id="doraemon" className="mx-auto w-full max-w-6xl px-6 py-12 md:py-16">
+        <div className="rounded-3xl border border-cyan-300/25 bg-[linear-gradient(130deg,rgba(30,58,138,0.28),rgba(8,47,73,0.22),rgba(8,145,178,0.2))] p-6 md:p-10">
+          <p className="text-sm uppercase tracking-[0.28em] text-cyan-200/85">
+            Featured Title
+          </p>
+          <h3 className="mt-4 text-3xl font-bold md:text-5xl">
+            Doraemon Time Adventure
+          </h3>
+          <p className="mt-5 max-w-3xl text-sm leading-7 text-white/80 md:text-base">
+            穿上时光巡逻队制服，和哆啦A梦、大雄、静香、胖虎与小夫一起展开跨时代冒险。
+            玩家将使用竹蜻蜓穿梭天空、用任意门挑战迷宫、借助缩小灯破解机关，在经典道具与原创剧情中体验
+            轻松又充满策略的关卡战斗。
+          </p>
+          <div className="mt-7 grid gap-4 md:grid-cols-3">
+            <article className="rounded-2xl border border-white/15 bg-[#0a0d16]/75 p-4">
+              <h4 className="text-base font-semibold">经典道具玩法</h4>
+              <p className="mt-2 text-sm leading-6 text-white/70">
+                超过 50 种熟悉道具可自由组合，战斗与解谜都有不同解法。
+              </p>
+            </article>
+            <article className="rounded-2xl border border-white/15 bg-[#0a0d16]/75 p-4">
+              <h4 className="text-base font-semibold">合作挑战副本</h4>
+              <p className="mt-2 text-sm leading-6 text-white/70">
+                可与好友组队对抗时空乱流 Boss，共同完成每周限定任务。
+              </p>
+            </article>
+            <article className="rounded-2xl border border-white/15 bg-[#0a0d16]/75 p-4">
+              <h4 className="text-base font-semibold">温暖剧情收集</h4>
+              <p className="mt-2 text-sm leading-6 text-white/70">
+                解锁角色日常故事与收藏插画，重温童年感动并发现新篇章。
+              </p>
+            </article>
+          </div>
         </div>
       </section>
 
