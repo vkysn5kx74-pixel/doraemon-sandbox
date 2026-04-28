@@ -38,6 +38,9 @@ export default function Home() {
             <a href="#doraemon" className="transition hover:text-white">
               Doraemon
             </a>
+            <a href="#shinchan" className="transition hover:text-white">
+              Shinchan
+            </a>
             <a href="#careers" className="transition hover:text-white">
               Careers
             </a>
@@ -138,6 +141,41 @@ export default function Home() {
               <h4 className="text-base font-semibold">温暖剧情收集</h4>
               <p className="mt-2 text-sm leading-6 text-white/70">
                 解锁角色日常故事与收藏插画，重温童年感动并发现新篇章。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="shinchan" className="mx-auto w-full max-w-6xl px-6 py-4 md:py-8">
+        <div className="rounded-3xl border border-amber-300/25 bg-[linear-gradient(130deg,rgba(120,53,15,0.24),rgba(161,98,7,0.2),rgba(217,119,6,0.16))] p-6 md:p-10">
+          <p className="text-sm uppercase tracking-[0.28em] text-amber-200/85">
+            New Arrival
+          </p>
+          <h3 className="mt-4 text-3xl font-bold md:text-5xl">
+            Crayon Shinchan: Kasukabe Adventure
+          </h3>
+          <p className="mt-5 max-w-3xl text-sm leading-7 text-white/80 md:text-base">
+            在《蜡笔小新：春日部大冒险》中，你将和小新、美伢、广志、风间、妮妮、阿呆与正男一起探索充满笑料的春日部世界。
+            游戏融合轻度动作、剧情互动与收集玩法，玩家可以在熟悉的街区触发经典桥段，解锁角色专属剧情并挑战趣味任务。
+          </p>
+          <div className="mt-7 grid gap-4 md:grid-cols-3">
+            <article className="rounded-2xl border border-white/15 bg-[#0a0d16]/75 p-4">
+              <h4 className="text-base font-semibold">爆笑剧情互动</h4>
+              <p className="mt-2 text-sm leading-6 text-white/70">
+                体验原作风格对白与动态演出，在任务推进中不断触发意想不到的搞笑事件。
+              </p>
+            </article>
+            <article className="rounded-2xl border border-white/15 bg-[#0a0d16]/75 p-4">
+              <h4 className="text-base font-semibold">春日部城市探索</h4>
+              <p className="mt-2 text-sm leading-6 text-white/70">
+                从双叶幼稚园到商店街自由穿梭，发现隐藏彩蛋、完成日常委托并积累收藏图鉴。
+              </p>
+            </article>
+            <article className="rounded-2xl border border-white/15 bg-[#0a0d16]/75 p-4">
+              <h4 className="text-base font-semibold">好友合作小游戏</h4>
+              <p className="mt-2 text-sm leading-6 text-white/70">
+                参与限时派对玩法，与好友协力通关节日挑战，赢取限定服装与场景装饰奖励。
               </p>
             </article>
           </div>
